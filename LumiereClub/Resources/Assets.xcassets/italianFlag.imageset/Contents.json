@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "italy-flag-circle-image-and-icon-free-vector-modified.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "italy-flag-circle-image-and-icon-free-vector-modified@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "italy-flag-circle-image-and-icon-free-vector-modified@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
