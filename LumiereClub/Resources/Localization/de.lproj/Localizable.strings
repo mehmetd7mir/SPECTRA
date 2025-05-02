@@ -1,8 +1,28 @@
-/* 
-  Localizable.strings
-  LumiereClub
+// * - * - * - GENERAL - * - * - *
+"OK_BUTTON"                                                 = "Ok";
+"ERROR_TITLE"                                               = "Fehler";
 
-  Created by Mehmet  Demir on 29.04.2025.
-  
-*/
-"CHOOSE_LANGUAGE" = "Wählen Sie Ihre Sprache";
+// * - * - * - LANGUAGE SCREEN - * - * - *
+"CHOOSE_LANGUAGE"                                           = "Wählen Sie Ihre Sprache";
+
+// * - * - * - WELCOME SCREEN - * - * - *
+"WELCOME_TITLE"                                             = "WILLKOMMEN BEI LUMIÈRE CLUB";
+"JOIN_US"                                                   = "Treten Sie Uns Bei";
+"SIGN_IN"                                                   = "Anmelden";
+"FORGOT_PASSWORD"                                           = "Passwort Vergessen";
+"NO_ACCOUNT_QUESTION"                                       = "Sie haben kein Konto?";
+"REMEMBER_ME"                                               = "Erinnere dich an mich?"
+
+// placeholders
+"IDENTIFIER_PLACEHOLDER"                                    = "Geben Sie Ihre E-Mail, Telefonnummer oder Ihren Benutzernamen ein";
+"PASSWORD_PLACEHOLDER"                                      = "Geben Sie Ihr Passwort ein";
+
+// validation errors
+"IDENTIFIER_EMPTY"                                          = "Bitte geben sie ihre e-mail, telefonnummer oder benutzernamen ein.";
+"IDENTIFIER_FORMAT_INVALID"                                 = "Bitte geben sie eine gültige e-mail, telefonnummer oder benutzernamen ein.";
+"PASSWORD_EMPTY"                                            = "Bitte geben sie ihr passwort ein.";
+"PASSWORD_TOO_SHORT"                                        = "Das passwort muss mindestens 6 zeichen lang sein.";
+
+// firebase auth errors
+"IDENTIFIER_NOT_FOUND"                                      = "Kein konto für diese angaben gefunden.";
+"WRONG_PASSWORD"                                            = "Falsches passwort.";

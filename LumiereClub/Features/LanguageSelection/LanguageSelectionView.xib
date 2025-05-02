@@ -75,7 +75,7 @@
                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="yEu-7k-OMJ"/>
+                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="7b3-P4-XuC"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -106,7 +106,7 @@
                                     <color key="textColor" name="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9w-gM-dAa">
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9w-gM-dAa">
                                     <rect key="frame" x="270" y="0.0" width="60" height="60"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="60" id="FAp-4b-Ndh"/>
@@ -118,7 +118,7 @@
                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="5Ie-KG-3TQ"/>
+                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="V0b-lm-aqj"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -149,7 +149,7 @@
                                     <color key="textColor" name="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvU-a3-sKJ">
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvU-a3-sKJ">
                                     <rect key="frame" x="270" y="0.0" width="60" height="60"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="60" id="ADD-KW-2h0"/>
@@ -161,7 +161,7 @@
                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="7Vc-dc-51a"/>
+                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="ayd-Ux-cxq"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -191,7 +191,7 @@
                                     <color key="textColor" name="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjl-4D-8t6">
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjl-4D-8t6">
                                     <rect key="frame" x="270" y="0.0" width="60" height="60"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="60" id="g5I-fp-S2Y"/>
@@ -203,7 +203,7 @@
                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="wKD-ER-9sx"/>
+                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="NQn-ea-2ZL"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -234,7 +234,7 @@
                                     <color key="textColor" name="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XY-J7-GPF">
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XY-J7-GPF">
                                     <rect key="frame" x="270" y="0.0" width="60" height="60"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="60" id="OaL-1g-WIX"/>
@@ -246,7 +246,7 @@
                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="Sxy-k9-MaP"/>
+                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="jTo-ic-1dt"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -277,7 +277,7 @@
                                     <color key="textColor" name="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0e-vl-cM0">
+                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0e-vl-cM0">
                                     <rect key="frame" x="270" y="0.0" width="60" height="60"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="60" id="UdW-tu-D9M"/>
@@ -289,7 +289,7 @@
                                         <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </buttonConfiguration>
                                     <connections>
-                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="dsX-9o-ofC"/>
+                                        <action selector="languageButtonTapped:" destination="-1" eventType="touchUpInside" id="kwH-8A-ipb"/>
                                     </connections>
                                 </button>
                             </subviews>

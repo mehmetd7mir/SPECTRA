@@ -9,4 +9,5 @@ import Foundation
 
 enum UserDefaultsKeys {
     static let selectedLanguage = "selectedLanguage"
+    static let rememberMe = "rememberMe"
 }

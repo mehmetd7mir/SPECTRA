@@ -1,1 +1,31 @@
-"CHOOSE_LANGUAGE" = "Choose your language";
+// * - * - * - x SCREEN - * - * - *
+
+// GENERAL
+"OK_BUTTON"                                                     = "Ok";
+"ERROR_TITLE"                                                   = "Error";
+
+// * - * - * - LANGUAGE SCREEN - * - * - *
+"CHOOSE_LANGUAGE"                                               = "Choose your language";
+
+// * - * - * - WELCOME SCREEN - * - * - *
+"WELCOME_TITLE"                                                 = "WELCOME TO LUMIERE CLUB";
+"JOIN_US"                                                       = "Join Us";
+"SIGN_IN"                                                       = "Sign In";
+"FORGOT_PASSWORD"                                               = "Forgot Password";
+"NO_ACCOUNT_QUESTION"                                           = "Don't have an account?";
+"REMEMBER_ME"                                                   = "Remember me?"
+
+// placeholders
+"IDENTIFIER_PLACEHOLDER"                                        = "Enter your email, phone or username";
+"PASSWORD_PLACEHOLDER"                                          = "Enter your password";
+
+// validation errors
+"IDENTIFIER_EMPTY"                                              = "Please enter your email, phone or username.";
+"IDENTIFIER_FORMAT_INVALID"                                     = "Please enter a valid email, phone number or username.";
+"PASSWORD_EMPTY"                                                = "Please enter your password.";
+"PASSWORD_TOO_SHORT"                                            = "Password must be at least 6 characters long.";
+
+// firebase auth errors
+"IDENTIFIER_NOT_FOUND"                                          = "No account found for this identifier.";
+"WRONG_PASSWORD"                                                = "Incorrect password.";
+

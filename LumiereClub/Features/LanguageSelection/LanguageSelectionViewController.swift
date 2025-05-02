@@ -28,7 +28,7 @@ class LanguageSelectionViewController: UIViewController {
         let nib = UINib(nibName: "LanguageSelectionView", bundle: nil)
         self.view = nib.instantiate(withOwner: self, options: nil).first as? UIView
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         appendButtons()
@@ -40,13 +40,9 @@ class LanguageSelectionViewController: UIViewController {
                 button.setImage(self.isNotSelectedImage, for: .normal)
             }
             sender.setImage(self.selectedImage, for: .normal)
-            if let key = sender.currentTitle {
-                if let code = self.languageModel.languageDict[key] {
-                    self.languageModel.saveSelectedLanguage(code: code)
-                }
-            }
+            let code = self.languageModel.languageCodes[sender.tag]
+            self.languageModel.saveSelectedLanguage(code: code)
         }
-        
     }
     
     private func appendButtons(){

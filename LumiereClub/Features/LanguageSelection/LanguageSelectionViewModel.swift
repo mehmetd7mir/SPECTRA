@@ -9,15 +9,7 @@ import Foundation
 import UIKit
 
 final class LanguageSelectionViewModel {
-    let languageDict : [String : String] = [
-        "English" : "en",
-        "Türkçe" : "tr",
-        "Deutsch" : "de",
-        "Français" : "fr",
-        "Italiano" : "it",
-        "Español" : "es"
-    ]
-
+    let languageCodes = ["en", "tr", "de", "fr", "it", "es"]
     func saveSelectedLanguage(code : String) {
         UserDefaults.standard.set(code, forKey: UserDefaultsKeys.selectedLanguage)
     }
@@ -27,3 +19,4 @@ final class LanguageSelectionViewModel {
         
     }
 }
+

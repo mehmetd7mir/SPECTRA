@@ -1,8 +1,28 @@
-/* 
-  Localizable.strings
-  LumiereClub
+// * - * - * - GENERAL - * - * - *
+"OK_BUTTON"                         = "Tamam";
+"ERROR_TITLE"                       = "Hata";
 
-  Created by Mehmet  Demir on 29.04.2025.
-  
-*/
-"CHOOSE_LANGUAGE" = "Dilinizi seçin";
+// * - * - * - LANGUAGE SCREEN - * - * - *
+"CHOOSE_LANGUAGE"                   = "Dilinizi seçin";
+
+// * - * - * - WELCOME SCREEN - * - * - *
+"WELCOME_TITLE"                     = "LUMIÈRE CLUB'A HOŞ GELDİNİZ";
+"JOIN_US"                           = "Bize katılın";
+"SIGN_IN"                           = "Giriş yap";
+"FORGOT_PASSWORD"                   = "Şifremi unuttum";
+"NO_ACCOUNT_QUESTION"               = "Hesabınız yok mu?";
+"REMEMBER_ME"                       = "Beni hatırla ?"
+
+// placeholders
+"IDENTIFIER_PLACEHOLDER"            = "E-posta, telefon veya kullanıcı adınızı girin";
+"PASSWORD_PLACEHOLDER"              = "Şifrenizi girin";
+
+// validation errors
+"IDENTIFIER_EMPTY"                  = "Lütfen e-posta, telefon veya kullanıcı adınızı girin.";
+"IDENTIFIER_FORMAT_INVALID"         = "Lütfen geçerli bir e-posta, telefon numarası veya kullanıcı adı girin.";
+"PASSWORD_EMPTY"                    = "Lütfen şifrenizi girin.";
+"PASSWORD_TOO_SHORT"                = "Şifreniz en az 6 karakter olmalıdır.";
+
+// firebase auth errors
+"IDENTIFIER_NOT_FOUND"              = "Bu bilgilerle eşleşen bir hesap bulunamadı.";
+"WRONG_PASSWORD"                    = "Şifre hatalı.";
