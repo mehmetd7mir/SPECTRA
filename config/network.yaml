@@ -1,0 +1,35 @@
+# Varsayılan taktik ağ konfigürasyonu
+# 5 düğüm: 1 komuta merkezi, 1 aktarıcı, 2 sensör, 1 silah sistemi
+name: default_tactical
+
+nodes:
+  - id: HQ
+    role: command_center
+    position: [0, 0]
+
+  - id: RELAY_1
+    role: relay
+    position: [500, 300]
+
+  - id: SENSOR_A
+    role: sensor
+    position: [800, 100]
+
+  - id: SENSOR_B
+    role: sensor
+    position: [700, 500]
+
+  - id: WEAPON_1
+    role: weapon
+    position: [400, 200]
+
+# link tanımları: [düğüm_a, düğüm_b, {parametreler}]
+# base_snr: temel sinyal kalitesi (dB)
+# bandwidth: bant genişliği (byte/s)
+# base_delay: temel gecikme (ms)
+links:
+  - [HQ, RELAY_1, {base_snr: 25, bandwidth: 9600, base_delay: 8}]
+  - [RELAY_1, SENSOR_A, {base_snr: 18, bandwidth: 4800, base_delay: 12}]
+  - [RELAY_1, SENSOR_B, {base_snr: 20, bandwidth: 4800, base_delay: 10}]
+  - [HQ, WEAPON_1, {base_snr: 22, bandwidth: 9600, base_delay: 6}]
+  - [RELAY_1, WEAPON_1, {base_snr: 15, bandwidth: 2400, base_delay: 15}]
